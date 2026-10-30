@@ -585,3 +585,130 @@ export const INITIAL_PRICE_ALERTS: import('../types').PriceAlert[] = [
     createdAt: 'Oct 27, 2026',
   },
 ];
+
+export const FARMER_GUIDES: import('../types').FarmerGuide[] = [
+  {
+    id: 'guide-01',
+    title: 'The Science of Pre-Dawn Tapping: Maximizing Latex Turgor Pressure',
+    category: 'Tapping Techniques',
+    readTime: '5 min read',
+    author: 'Dr. K. R. Nambiar (Plantation Agronomist)',
+    date: 'October 24, 2026',
+    summary:
+      'Why tapping between 2:30 AM and 5:30 AM before sunrise increases field latex yields by 14% to 22% compared to daylight tapping.',
+    content: [
+      'Latex vessels in Hevea brasiliensis are under positive hydrostatic pressure (turgor pressure). During late night and pre-dawn hours, tree transpiration ceases while root osmotic pressure remains high. This creates peak internal pressure in the laticiferous vessels.',
+      'As soon as sunlight hits the canopy, photosynthesis and stomatal transpiration commence, rapidly pulling water upward through the xylem and dropping latex vessel turgor. Tapping after 7:30 AM can reduce latex flow duration by more than 40 minutes.',
+      'Modern motorized knives equipped with twin 120-lumen LED night guides enable farmers to tap comfortably in pitch-black conditions starting at 3:00 AM, capturing the biological peak yield safely.',
+    ],
+    keyTakeaways: [
+      'Peak turgor pressure occurs between 2:30 AM and 5:00 AM.',
+      'Daylight stomatal opening draws water away from latex vessels, accelerating plug formation.',
+      'LED-assisted electric knives make early morning tapping safer and faster.',
+    ],
+  },
+  {
+    id: 'guide-02',
+    title: 'Cambium Layer Preservation: Extending Tree Harvest Life by 5+ Years',
+    category: 'Bark Care & Cambium',
+    readTime: '6 min read',
+    author: 'Agronomy Extension Team',
+    date: 'October 18, 2026',
+    summary:
+      'Understanding bark anatomy: how precise 1.1mm shaving without touching the cambium guarantees smooth renewal bark for future harvest cycles.',
+    content: [
+      'The economic life of a rubber tree is dictated by how carefully its bark is consumed. Traditional Michie gouges frequently cut into the delicate cambium layer when tappers rush, leaving permanent wood wounds and irregular ridges.',
+      'Wounded bark regenerates with knots and burrs, making subsequent tapping cycles on panel renewal extremely difficult or impossible. In contrast, modern electric knives feature micrometer depth dials (0.8mm to 1.8mm) and capacitive auto-brakes that stop the blade in 0.02 seconds if wood resistance is detected.',
+      'Field trials indicate that maintaining an average monthly bark consumption of 1.2 cm extends panel usability across the tree trunk from 20 years to over 28 years.',
+    ],
+    keyTakeaways: [
+      'Cambium wounding permanently damages bark renewal morphology.',
+      'Optimal bark shaving thickness is strictly 1.0mm to 1.2mm.',
+      'Capacitive safe-stop sensors eliminate human operator fatigue errors.',
+    ],
+  },
+  {
+    id: 'guide-03',
+    title: 'Monsoon Rain-Guarding: Protecting Field Latex from Wash-Out',
+    category: 'Monsoon & Rain Guarding',
+    readTime: '4 min read',
+    author: 'Rubber Board Field Specialist',
+    date: 'October 12, 2026',
+    summary:
+      'Step-by-step method for fixing polythene skirts and sealing silicone beads to tap continuously through monsoon months.',
+    content: [
+      'Unprotected rubber plantations lose 35 to 55 tapping days every monsoon season due to trunk runoff washing fresh latex out of the collection cups.',
+      'Proper rain guarding involves applying a 150-gauge polythene skirt 30 cm above the tapping cut, bonded with waterproof bitumen or elastomeric sealant. Ensure the lower border hangs free over the spout and collection cup.',
+      'When using motorized or automated robotic tappers during rain, verify that the machine’s weather hood is rated IP65 or higher and that no water drips into the motor enclosure or battery terminals.',
+    ],
+    keyTakeaways: [
+      'Rain guarding recovers up to 50 lost tapping days per year.',
+      'Use bitumen sealant with clean dried bark before the onset of monsoon.',
+      'Regularly check automated collars for moisture sealing.',
+    ],
+  },
+  {
+    id: 'guide-04',
+    title: 'DRC Testing & Coagulation: Achieving Grade 1 RSS-4 Smoked Sheets',
+    category: 'Processing & DRC',
+    readTime: '7 min read',
+    author: 'Cooperative Processing Cell',
+    date: 'October 05, 2026',
+    summary:
+      'Exact dilution ratios, formic acid dosage, and sheeting roller settings to prevent bubbling, mould, and smoke streaks.',
+    content: [
+      'Field latex typically enters collection centers at 30% to 35% Dry Rubber Content (DRC). Diluting the latex to exactly 12.5% DRC with clean, filtered water before adding acid produces uniform coagulation and consistent sheet density.',
+      'Always prefer Formic Acid (85% commercial grade) over Acetic or Sulphuric acid. Sulphuric acid degrades rubber polymer chains and causes premature hardening and brittleness.',
+      'Pass the coagulum through smooth rollers first to squeeze out serum, followed by grooved marking rollers. Dry in a controlled smokehouse at 48°C to 54°C for 4 days to achieve flawless translucent golden RSS-4 sheets that command peak auction prices.',
+    ],
+    keyTakeaways: [
+      'Standardize latex to 12.5% DRC for homogenous coagulation.',
+      'Never use Sulphuric acid; strictly use recommended Formic acid.',
+      'Maintain smokehouse temperatures strictly under 55°C to avoid scorching.',
+    ],
+  },
+];
+
+export const FARMER_TESTIMONIALS = [
+  {
+    id: 'test-1',
+    farmerName: 'Mathew Varghese',
+    location: 'Kanjirappally, Kottayam, Kerala',
+    holdingSize: '650 mature rubber trees (RRII 105)',
+    machineUsed: 'AgriTap Pro 4X Smart Tapper',
+    quote:
+      'For 25 years I used manual gouge knives. As I turned 56, wrist fatigue slowed me down to 45 trees an hour. With the AgriTap electric knife, I finish all 650 trees in 5.5 hours with zero wrist ache, and my monthly sheet production jumped by 18 kg because the bark cut is razor thin and perfectly even.',
+    metrics: '+14.5% Monthly DRC Yield',
+    verified: true,
+  },
+  {
+    id: 'test-2',
+    farmerName: 'Somchai Prasert',
+    location: 'Phunphin, Surat Thani, Thailand',
+    holdingSize: '1,200 rubber trees',
+    machineUsed: 'AutoTap T-500 Robotic Collar (50-tree pilot)',
+    quote:
+      'We tested the robotic tree collar on our hill plot where morning labor is scarce. The automated timer taps at 2:30 AM on the dot. By 6:00 AM collection, the cups are overflowing with thick white latex. We measured an average of 19% more dry rubber compared to when our workers tapped at 6:30 AM.',
+    metrics: '+19.8% Early-Morning Yield',
+    verified: true,
+  },
+  {
+    id: 'test-3',
+    farmerName: 'Mini Joseph',
+    location: 'Adoor, Pathanamthitta, Kerala',
+    holdingSize: '400 trees smallholding',
+    machineUsed: 'EcoBlade Featherlight 3000',
+    quote:
+      'As a female smallholder, traditional tapping was physically demanding. The EcoBlade weighs only 640 grams and has a built-in safety shoe that prevents touching the wood. Even my apprentice learned to tap virgin bark in just 3 days without making a single wound on the trunk.',
+    metrics: 'Zero Cambium Wounding Score',
+    verified: true,
+  },
+];
+
+export const WEBSITE_STATS = [
+  { label: 'Active Rubber Farmers Supported', value: '14,800+' },
+  { label: 'Verified Machinery & Parts Hubs', value: '54 Locations' },
+  { label: 'Daily Spot Benchmarks Tracked', value: '5 Commodity Grades' },
+  { label: 'Average Mechanization Yield Uplift', value: '+14.2% DRC' },
+];
+

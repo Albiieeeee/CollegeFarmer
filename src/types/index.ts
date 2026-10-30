@@ -119,3 +119,29 @@ export interface PriceAlert {
   isActive: boolean;
   createdAt: string;
 }
+
+export interface FarmerGuide {
+  id: string;
+  title: string;
+  category: 'Tapping Techniques' | 'Bark Care & Cambium' | 'Monsoon & Rain Guarding' | 'Processing & DRC';
+  readTime: string;
+  author: string;
+  date: string;
+  summary: string;
+  content: string[];
+  keyTakeaways: string[];
+}
+
+export interface DealerApplication {
+  businessName: string;
+  contactPerson: string;
+  phone: string;
+  email: string;
+  district: string;
+  state: string;
+  country: string;
+  businessType: string;
+  brandsCarried: string;
+  notes: string;
+}
+
