@@ -1,0 +1,6 @@
+{
+  "name": "LatexPulse - Rubber Farmer Price & Equipment Hub",
+  "description": "Everyday natural rubber prices (RSS-4, Field Latex, TSR-20), tapping machine innovations & updates, and verified local equipment supplier directory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
